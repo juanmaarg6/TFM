@@ -3,7 +3,7 @@
 **Master's Thesis · MSc in Artificial Intelligence Research · Menéndez Pelayo International University (UIMP) · September 2026**  
 **Final grade: 9.5/10**
 
-[**Thesis (PDF)**](memoria.pdf) · [**Presentation (PDF)**](presentacion.pdf) · [**Reproducibility notes**](docs/REPRODUCIBILITY.md) · [**Citation**](CITATION.cff)
+[**Thesis (PDF)**](docs/masters_thesis.pdf) · [**Presentation (PDF)**](docs/thesis_presentation.pdf) · [**Reproducibility notes**](docs/REPRODUCIBILITY.md) · [**Citation**](CITATION.cff)
 
 > **Can we train an accurate image classifier using only a fraction of the available training examples?**
 >
@@ -66,7 +66,7 @@ Across the experiments, the evaluated retention levels are **10%, 25%, 50%, 75%,
 - **Baselines:** one class-stratified random subset (SRS), global k-center greedy (KCG), and the full base-training set (100%).
 - **Assessment:** held-out accuracy, data retention, and computational cost, with results interpreted across the experimental conditions rather than from a single best run.
 
-For the formal analysis, assumptions, and limitations, see the [full thesis](memoria.pdf).
+For the formal analysis, assumptions, and limitations, see the [full thesis](docs/masters_thesis.pdf).
 
 ## Repository structure
 
@@ -94,8 +94,8 @@ For the formal analysis, assumptions, and limitations, see the [full thesis](mem
 ├── run_global_kcenter_experiments.py
 ├── requirements.txt
 ├── CITATION.cff
-├── memoria.pdf                       # Thesis document
-└── presentacion.pdf                  # Thesis defense slides
+├── docs/masters_thesis.pdf                       # Thesis document
+└── docs/thesis_presentation.pdf                  # Thesis defense slides
 ```
 
 The experiment implementation is preserved from the original project; the repository organization separates code, launch scripts, archived results, and analysis artifacts.
