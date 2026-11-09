@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Large datasets and cached representations
+data/*
+!data/README.md
+*.pt
+*.pth
+*.npy
+*.npz
+*.dat
+
+# Cluster/runtime logs
+slurm-*.out
+slurm-*.err
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
