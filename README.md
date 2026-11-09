@@ -88,14 +88,15 @@ For the formal analysis, assumptions, and limitations, see the [full thesis](doc
 │   └── diagnostics/guided_b100/      # Earlier B=100 diagnostics
 ├── analysis_outputs/                 # Tables and figures from archived experiments
 ├── data/                             # Dataset layout; large artifacts excluded
-├── docs/                             # Reproducibility notes
+├── docs/                             # Documentation and thesis materials
+│   ├── REPRODUCIBILITY.md            # Reproducibility guide
+│   ├── masters_thesis.pdf            # Full thesis
+│   └── thesis_presentation.pdf       # Defense slides
 ├── extract_features.py              # Frozen-feature extraction
 ├── run_experiments.py                # Search experiment runner
 ├── run_global_kcenter_experiments.py
 ├── requirements.txt
-├── CITATION.cff
-├── docs/masters_thesis.pdf                       # Thesis document
-└── docs/thesis_presentation.pdf                  # Thesis defense slides
+└── CITATION.cff
 ```
 
 The experiment implementation is preserved from the original project; the repository organization separates code, launch scripts, archived results, and analysis artifacts.
